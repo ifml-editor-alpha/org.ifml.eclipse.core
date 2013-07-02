@@ -1,0 +1,17 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: IFML Eclipse Core Library
+Bundle-SymbolicName: org.ifml.eclipse.core
+Bundle-Version: 0.1.0.qualifier
+Bundle-Activator: org.ifml.eclipse.core.CommonCore
+Bundle-Vendor: WebRatio s.r.l.
+Require-Bundle: org.eclipse.core.runtime,
+ org.ifml.lib.google.guava,
+ org.eclipse.core.resources,
+ org.ifml.base
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
+Bundle-ActivationPolicy: lazy
+Export-Package: org.ifml.eclipse.core,
+ org.ifml.eclipse.core.resources,
+ org.ifml.eclipse.core.runtime,
+ org.ifml.eclipse.osgi
